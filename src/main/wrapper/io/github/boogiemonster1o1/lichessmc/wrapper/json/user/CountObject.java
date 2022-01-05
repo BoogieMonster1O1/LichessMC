@@ -1,4 +1,4 @@
-package io.github.boogiemonster1o1.lichessmc.wrapper.json.account;
+package io.github.boogiemonster1o1.lichessmc.wrapper.json.user;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

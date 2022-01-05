@@ -1,6 +1,6 @@
-package io.github.boogiemonster1o1.lichessmc.wrapper.json.account;
+package io.github.boogiemonster1o1.lichessmc.wrapper.json.user;
 
-public record PersonalProfileObject(
+public record ProfileObject(
 	String country,
 	String location,
 	String bio,

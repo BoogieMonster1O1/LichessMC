@@ -1,6 +1,8 @@
-package io.github.boogiemonster1o1.lichessmc.wrapper.json.account;
+package io.github.boogiemonster1o1.lichessmc.wrapper.json.user;
 
-public record ProfileObject(
+import io.github.boogiemonster1o1.lichessmc.wrapper.json.value.Title;
+
+public record PublicDataObject(
 	String id,
 	String username,
 	boolean online,
@@ -8,7 +10,7 @@ public record ProfileObject(
 	int createdAt,
 	boolean disabled,
 	boolean tosViolation,
-	PersonalProfileObject profile,
+	ProfileObject profile,
 	int seenAt,
 	boolean patron,
 	boolean verified,

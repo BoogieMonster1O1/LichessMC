@@ -1,4 +1,10 @@
-package io.github.boogiemonster1o1.lichessmc.wrapper.json.account;
+package io.github.boogiemonster1o1.lichessmc.wrapper.json.user;
+
+import io.github.boogiemonster1o1.lichessmc.wrapper.json.value.SoundSet;
+import io.github.boogiemonster1o1.lichessmc.wrapper.json.value.PieceSet;
+import io.github.boogiemonster1o1.lichessmc.wrapper.json.value.PieceSet3d;
+import io.github.boogiemonster1o1.lichessmc.wrapper.json.value.Theme;
+import io.github.boogiemonster1o1.lichessmc.wrapper.json.value.Theme3d;
 
 public record ActualPreferencesObject(
 	boolean dark,
